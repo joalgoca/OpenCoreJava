@@ -30,7 +30,7 @@ Aplicación Web base en MVC (Front end - jquery, bootstrap) (Backend java - Serv
   </ul>
 </li>
 <li>Controlar permisos de navegación (negar o permitir la navegación en base a los catálogos perfil-derecho)</li>
-<li>Todos los CRUD´s de catalogos deben mostrar un grid páginado con busquedas por campos</li>
+<li>Todos los CRUD´s de catálogos deben mostrar un grid paginado con busquedas por campos</li>
 <li>Agregar páginas de perfil (personal)</li>
 <li>Reglas de seguridad: 
 <ul>
