@@ -47,7 +47,7 @@ Aplicación Web base en MVC (Front end - jquery, bootstrap) (Backend java - Serv
 </ul>
 <h3>Recursos</h3>
 <ul>
-<li>Base de datos <b>Mysql 5.1</b> (.mwb,.sql)</li>
+<li>Base de datos <b>Mysql 5.1</b> (<a href='https://github.com/joalgoca/OpenCoreJava/blob/master/documentos/db/OPENCORE1.0.mwb' target='_blank'>.mwb</a>,.sql)</li>
 <li>IDE <b>Netbeans 8.1</b></li>
 <li>Contenedor de versiones <b>Github</b></li>
 <li>Javascript library <b>jquery</b></li>
