@@ -1,0 +1,111 @@
+#row-bootstrapkendo-wrapper{
+    height: 300px;
+    font-size: 0.85em; 
+}
+.navbar-brand{
+    padding: 0px;
+}
+
+#page-wrapper{
+}
+.logforms {
+    float: left;
+}
+
+.logforms li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.logforms li {
+    width: 210px;
+}
+
+.logforms li > * {
+    width: 200px;
+}
+
+.k-notification {
+    border: 0;
+}
+/* Info template */
+.k-notification-msg-info.k-group {
+    background: rgba(0%,0%,0%,.7);
+    color: #fff;
+}
+.msg-info {
+    width: 300px;
+    height: 100px;
+}
+.msg-info h3 {
+    font-size: 1.1em;
+    padding: 5px 10px 5px;
+}
+.msg-info img {
+    float: left;
+    margin: 30px 15px 30px 30px;
+}
+
+/* Error template */
+.k-notification-msg-error.k-group {
+    background: rgba(100%,0%,0%,.7);
+    color: #ffffff;
+}
+.msg-error {
+    width: 300px;
+    height: 100px;
+}
+.msg-error h3 {
+    font-size: 1.1em;
+    padding: 5px 10px 5px;
+}
+.msg-error img {
+    float: left;
+    margin: 30px 15px 30px 30px;
+}
+/* Success template */
+.k-notification-msg-success.k-group {
+    background: rgba(0%,60%,0%,.7);
+    color: #fff;
+}
+.msg-success {
+    width: 300px;
+    height: 100px;
+}
+.msg-success h3 {
+    font-size: 1.1em;
+    padding: 5px 10px 5px;
+}
+.msg-success img {
+    float: left;
+    margin: 30px 15px 30px 30px;
+}
+
+.success-message {
+    color: white;
+    padding: 10px 10px 10px 100px;
+    background: #8bc636 url("../img/check-white.png") 25px 0 no-repeat;
+    font-size: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.success-message .message-heading {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.error-message {
+  color: white;
+    padding: 10px 10px 10px 100px;
+    background: Red  url("../img/gtk_close.png") 25px 0 no-repeat;
+    font-size: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+.error-message .error-heading {
+  font-weight: bold;
+    font-size: 14px;
+    line-height: 2em;
+}

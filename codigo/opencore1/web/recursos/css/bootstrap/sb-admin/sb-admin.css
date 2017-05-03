@@ -1,0 +1,233 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: #F8F8F8;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 240px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #337ab7;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #23527c;
+    background-color: #eee;
+}
+
+ul.message-dropdown,ul.alert-dropdown {
+    padding: 0;
+    width: 300px;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.dropdown-menu li a div {
+    white-space: normal;
+}
+/* Side Navigation */
+.navbar-default .navbar-nav>li>a{    
+    color:#337ab7;
+}
+.navbar-default .navbar-nav>li>a:hover{ 
+    color: #23527c;
+}
+
+.navbar-nav>li>a {
+    line-height: 0px;
+}
+
+.side-nav{
+    overflow-y: auto;     
+    max-height: 95%;   
+}
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        font-size: .9em;
+        top: 51px;
+        left: 240px;
+        width: 240px;
+        margin-left: -240px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+        color:#337ab7;
+    }
+    
+    .side-nav .arrow {
+        float: right;
+    }
+
+    .side-nav .fa.arrow:before {
+        content: "\f104";
+    }
+
+    .side-nav .active>.fa.arrow:before {
+        content: "\f107";
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #eee;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 5px 10px 10px 25px;
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.side-nav>li>ul>.active>a {
+    color: #337ab7;
+    background-color: #eee;
+}
+
+.side-nav>li>ul>li>ul {
+    padding: 0;
+}
+.side-nav>li>ul>li>a:hover {
+    color: #23527c;
+}
+
+.side-nav>li>ul>li>ul>li>a {
+    display: block;
+    padding: 5px 10px 10px 38px;
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.side-nav>li>ul>li>ul>li>a:hover {
+    color: #23527c;
+}
+.side-nav>li>ul>li>ul>.active>a {
+    color: #337ab7;
+    background-color: #eee;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
